@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="ioxys5AZDtv0DWuR5WDq">
+    <mxGraphModel dx="784" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-1" value="Brennan Cheatwood&lt;div&gt;8.2 Assignment Flowchart&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="680" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-2" target="NYYpxcei7kRWTV-BlUNj-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-2" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="20" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-3" target="NYYpxcei7kRWTV-BlUNj-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-3" value="Set JSON_PATH to &quot;&amp;lt;script_dir&amp;gt;/student.json&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-4" target="NYYpxcei7kRWTV-BlUNj-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-4" value="load_students(JSON_PATH)&lt;div&gt;- open file (read)&lt;/div&gt;&lt;div&gt;- data = json.load(f)&lt;/div&gt;&lt;div&gt;- ensure data is a list&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-5" target="NYYpxcei7kRWTV-BlUNj-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-5" value="Print = &quot;=== Original Student List ===&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="260" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-6" target="NYYpxcei7kRWTV-BlUNj-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-6" value="print_students(students)&lt;div&gt;For each student s in list:&lt;/div&gt;&lt;div&gt;print &quot;{L_Name}, {F_Name} : ID = {ID} ,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Email = {Email}&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="320" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-7" target="NYYpxcei7kRWTV-BlUNj-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-7" value="Create my_record dict&amp;nbsp;&lt;div&gt;(F_Name, L_Name, ID, Email)&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="300" y="420" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-8" target="NYYpxcei7kRWTV-BlUNj-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-8" target="NYYpxcei7kRWTV-BlUNj-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-8" value="Append my_record dict (F_Name, L_Name, ID, Email)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="520" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-9" target="NYYpxcei7kRWTV-BlUNj-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="600" />
+              <mxPoint x="425" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-9" value="Print &quot;=== Updated Student List (after append) ===&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="580" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-10" target="NYYpxcei7kRWTV-BlUNj-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-10" value="print_students(students)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NYYpxcei7kRWTV-BlUNj-11" target="NYYpxcei7kRWTV-BlUNj-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NYYpxcei7kRWTV-BlUNj-11" target="NYYpxcei7kRWTV-BlUNj-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-11" value="save_students(JSON_PATH, students)&lt;div&gt;- open file (write)&lt;/div&gt;&lt;div&gt;- json.dump(list, indent)&lt;/div&gt;&lt;div&gt;- write newline&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="325" y="700" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-12" value="print &quot;student.json has been updated.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYYpxcei7kRWTV-BlUNj-13" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="375" y="880" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
